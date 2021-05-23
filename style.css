@@ -1,0 +1,35 @@
+*, ::after, ::before{
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+button{
+  width: 30%;
+  height: 40px;
+  background-color: yellow;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  position: relative;
+  margin-left: 35%;
+  margin-top: 50px;
+  color: magenta;
+}
+
+p[id="questionText"]{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: magenta;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+body{
+  background-color: aqua;
+}
